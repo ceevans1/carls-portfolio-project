@@ -1,0 +1,12 @@
+nav {
+  text-align: right;
+}
+
+nav li {
+  list-style:none;
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+}
