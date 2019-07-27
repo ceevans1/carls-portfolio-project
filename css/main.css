@@ -1,12 +1,50 @@
+body {
+  width: 1200px;
+}
+
+header{
+  height: 800px;
+  margin: 0px 100px 0px 100px;
+
+}
 nav {
   text-align: right;
 }
 
 nav li {
+  font-family: 'Open Sans' sans-serif;
+  font-weight: bold;
+  font-size: 20px;
   list-style:none;
   color: black;
+  text-transform: uppercase;
+  padding-left: 25px;
+  display: inline;
 }
 
 nav a {
   text-decoration: none;
+}
+
+header span{
+  color: #ff654a;
+}
+
+header img{
+  margin-top: 200px;
+}
+
+.greeting{
+  display: inline;
+}
+
+header p{
+  font-family: 'Open Sans' sans-serif;
+  font-size: 25px;
+  width: 600px;
+}
+h1{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  line-height: 15px;
 }
