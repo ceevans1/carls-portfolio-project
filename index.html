@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Carl Evans Portfoloio Page</title>
+        <script src="https://kit.fontawesome.com/b456903e43.js"></script>
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Open+Sans:400,700&display=swap"
@@ -12,7 +13,7 @@
         <nav>
           <ul>
             <a href="#about"><li>About</li></a>
-            <a href="#portforlio"><li>My Portfolio</li></a>
+            <a href="#portfolio"><li>My Portfolio</li></a>
             <a href="#contact"><li>Contact</li></a>
           </ul>
         </nav>
@@ -25,53 +26,62 @@
       </header>
       <div id="about">
           <h2>About Me</h2>
-          <img src="img/fern-hat.jpg" alt="the author wears a hat with ferns">
-          <p>Me in my camping days</p>
-          <p>I love to create.</p>
-          <p>Whether it is a sermon, web site or musical score,
+          <div class="photo">
+            <img id="fern" src="img/fern-hat.jpg" alt="the author wears a hat with ferns">
+            <p>Me in my camp counselor days</p>
+          </div>
+          <div class="info">
+            <p>I love to create.</p>
+            <p>Whether it is a web site, sermon or musical score,
             I love the feeling of the pieces of a project coming together.</p>
-          <p>One of my favorite projects was building
+            <p>One of my favorite projects was building
             a woodland prayer labyrinth from scratch.</p>
-          <p>Take a look!</p>
-          <img src="img/labyrinth.png" alt="labyrinth picture to come">
+            <p><strong>Take a look!</strong></p>
+          </div>
+          <img id="labyrinth" src="img/labyrinth.png" alt="labyrinth picture to come">
       </div>
       <div id="portfolio">
           <h2>My Portfolio</h2>
-          <div class="third">
-            <img src="img/rogue-pickings-thumbnail.png" alt="rogue pickings">
-            <p class="title">Rogue Pickings Website</p>
-            <p>HTML &amp; CSS from Photoshop Design Comp</p>
-          </div>
-          <div class="third">
-            <img src="img/jubilee-thumbnail.png" alt="jubilee website">
-            <p class="title">Jubilee Austen Project</p>
-            <p>HTML &amp; CSS Website</p>
-          </div>
-          <div class="third">
-            <img src="img/holstee-thumbnail.png" alt="Holstee poster project">
-            <p class="title">Holstee Manifesto</p>
-            <p>HTML &amp; CSS Exercise</p>
+          <div  class="whole">
+            <div class="third">
+              <img src="img/rogue-pickings-thumbnail.png" alt="rogue pickings">
+              <p class="title">Rogue Pickings Website</p>
+              <p class="description">HTML &amp; CSS from Photoshop Design Comp</p>
+            </div>
+            <div class="third">
+              <img src="img/jubilee-thumbnail.png" alt="jubilee website">
+              <p class="title">Jubilee Austen Project</p>
+              <p class="description">HTML &amp; CSS Website</p>
+            </div>
+            <div class="third">
+              <img src="img/holstee-thumbnail.png" alt="Holstee poster project">
+              <p class="title">Holstee Manifesto</p>
+              <p class="description">HTML &amp; CSS Exercise</p>
+            </div>
           </div>
       </div>
       <div id="contact">
           <h2>Let's Connect</h2>
           <div class="third">
-            <p class="title">Hire me</p>
-            <p>555-555-5555</p>
-            <p>aharah88@gmail.com</p>
+            <p class="contact-title">Hire me</p>
+            <p class="contact-info">555-555-5555</p>
+            <p class="contact-info">aharah88@gmail.com</p>
           </div>
           <div class="third">
-            <p class="title">Follow me</p>
-            <img src="img/twitter.png">
-            <img src="img/github.png">
-            <img src="img/linkedin.png">
+            <p class="contact-title">Follow me</p>
+            <i class="fab fa-github fa-3x"></i>
+            <i class="fab fa-linkedin fa-3x"></i>
           </div>
-          <div class="third"
-            <p class="title">Meet me</p>
-            <p>Cape Cod, MA</p>
-            <p>Let's meet at the beach!</p>
-          ></div>
+          <div class="third">
+            <p class="contact-title">Meet me</p>
+            <p class="contact-info">Cape Cod, MA</p>
+            <p class="contact-info">Let's meet at the beach!</p>
+          </div>
       </div>
+      <footer>
+        <p class="footer">Copyright 2019</p>
+        <p class="footer">Carl Evans</p>
+      </footer>
 
     </body>
 </html>

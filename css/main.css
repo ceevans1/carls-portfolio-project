@@ -27,7 +27,7 @@ nav a {
 }
 
 header span{
-  color: #ff654a;
+  color: #35de62;
 }
 
 header img{
@@ -47,4 +47,130 @@ h1{
   font-family: 'Libre Baskerville', serif;
   font-size: 30px;
   line-height: 15px;
+}
+
+/*About Me Section*/
+#about {
+  margin: 0px 100px 0px 100px;
+  background-color: #35de62;
+  text-align: center;
+  height:1000px;
+  color: #ffffff
+}
+
+#about h2{
+  padding-top: 100px;
+}
+
+#about p{
+  font-family: 'Open Sans' sans-serif;
+  font-size: 20px;
+
+
+}
+.photo p{
+  font-style: italic;
+  margin-top: 0px;
+}
+
+.info {
+  margin: auto;
+  width: 350px;
+}
+
+#fern{
+  width: 200px;
+  height: auto;
+  border: 5px solid #ffffff;
+}
+
+#labyrinth{
+  width: 300px;
+  height: auto;
+  border: 5px solid #ffffff;
+}
+/**Portfolio Section**/
+#portfolio{
+  margin: 0px 100px 0px 100px;
+  padding: 0px;
+  height:700px;
+  text-align: center;
+}
+
+#portfolio h2{
+  padding-top: 100px;
+  margin-bottom: 75px;
+}
+
+
+.whole{
+  width: 1000px;
+
+}
+
+.third{
+  width: 300px;
+  float: left;
+  padding-right: 16px;
+  padding-left: 17px;
+
+}
+
+#portfolio img{
+  width: 300px;
+  height: auto;
+  margin-left: 0px;
+}
+
+#portfolio p{
+  font-family: 'Open Sans' sans-serif;
+}
+
+
+.title{
+  font-weight: bold;
+
+}
+
+/**Contact Section**/
+#contact{
+  margin: 0px 100px 0px 100px;
+  padding: 0px;
+  height:500px;
+  text-align: center;
+  background-color:#35de62;
+  color: #ffffff;
+}
+
+#contact h2{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.contact-title{
+  font-weight: bold;
+  margin:auto;
+  padding-bottom: 25px;
+
+}
+.contact-info{
+  width: 300px;
+  padding-bottom: 0;
+}
+
+/**Footer Section**/
+footer{
+  margin: 0px 100px 0px 100px;
+  padding: 0px;
+  height: auto;
+  text-align: center;
+  background-color:#35de62;
+  color: #ffffff;
+}
+
+.footer{
+  display: inline;
+  margin-top:0;
+  padding: 5px;
+  font-size: 12px;
 }
